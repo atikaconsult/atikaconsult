@@ -1,0 +1,269 @@
+html,body {height:100%}
+body {
+  position: static;
+  margin: 0;
+  padding: 0;
+  max-width: 1700px;
+  font-family: "Open Sans";
+
+}
+
+input::-moz-focus-inner
+{
+    border: 0;
+    padding: 0;
+}
+.nav-bar li a.main{
+  font-size: 14px !important;
+}
+.nav-bar > li li a {
+  font-size: 14px !important;
+}
+.projects-template .a-wrapper.container {
+  padding: 0;
+}
+.row {
+  max-width: 98% !important;
+}
+
+#timeline {
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+#timeline .a-ui div,
+#timeline .a-ui span,
+#timeline .a-ui iframe,
+#timeline .a-ui pre,
+#timeline .a-ui a,
+#timeline .a-ui img,
+#timeline .a-ui ol,
+#timeline .a-ui ul,
+#timeline .a-ui li,
+#timeline .a-ui fieldset,
+#timeline .a-ui form,
+#timeline .a-ui label,
+#timeline .a-ui legend,
+#timeline .a-ui table,
+#timeline .a-ui caption,
+#timeline .a-ui tbody,
+#timeline .a-ui tfoot,
+#timeline .a-ui thead,
+#timeline .a-ui tr,
+#timeline .a-ui th,
+#timeline .a-ui td
+/*div.a-ui, span.a-ui, iframe.a-ui,
+pre.a-ui, a.a-ui, img.a-ui,
+ol.a-ui, ul.a-ui, li.a-ui,
+fieldset.a-ui, form.a-ui, label.a-ui, legend.a-ui,
+table.a-ui, caption.a-ui, tbody.a-ui, tfoot.a-ui, thead.a-ui, tr.a-ui, th.a-ui, td.a-ui*/
+{
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;
+}
+
+#timeline .a-ui li,
+#timeline .a-ui ul,
+#timeline .a-ui ol,
+#timeline li.a-ui,
+#timeline ul.a-ui,
+#timeline ol.a-ui {
+   list-style: none;
+}
+#timeline .a-ui h1,
+#timeline h1.a-ui {
+  font-size: 36px;
+}
+#timeline .a-ui h2,
+#timeline h2.a-ui {
+  font-size: 28px;
+}
+#timeline .a-ui h3,
+#timeline h3.a-ui {
+  font-size: 20px;
+}
+#timeline .a-ui h4,
+#timeline h4.a-ui {
+  font-size: 14px;
+}
+#timeline .a-ui h5,
+#timeline h5.a-ui {
+  font-size: 12px;
+  font-weight: bold;
+}
+#timeline .a-ui h6,
+#timeline h6.a-ui {
+  font-size: 12px;
+  color: #999;
+}
+
+#timeline .container {
+  padding: 0;
+}
+
+#timeline .slider-item .a-slideshow-image img {
+  border: none;
+}
+
+#timeline .slider .nav-previous .icon,
+#timeline .slider .nav-previous .date,
+#timeline .slider .nav-previous .title,
+#timeline .slider .nav-next .icon,
+#timeline .slider .nav-next .data,
+#timeline .slider .nav-next .title {
+  clear: both;
+}
+
+/*  --------------------------------------------------
+    Template specific fixes - Home Template
+  -------------------------------------------------- */
+.home-template .header-row { padding-top:21%}
+.home-template .a-button-image { padding-left: 50%;}
+img.bg {bottom: 0; left: 0; position: absolute; width: 60%; z-index:-1}
+.home-template .container {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -50px;}
+.home-template #footer {height: 50px;}
+
+/*  --------------------------------------------------
+  Template specific fixes - Paddings
+-------------------------------------------------- */
+.header-row {
+  padding: 2% 0px 0px 0px;
+}
+
+/*  --------------------------------------------------
+  Template specific fixes - Typography
+-------------------------------------------------- */
+.tooltip {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+.a-wrapper {
+  font-family: "Open Sans";
+}
+.a-wrapper h1,
+.a-wrapper h2,
+.a-wrapper h3,
+.a-wrapper h4,
+.a-wrapper h5,
+.a-wrapper h6 {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height:1.5;
+}
+.a-wrapper h1 {
+  font-size: 2.6em;
+  color: #666;
+}
+.a-wrapper h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+.a-wrapper p,
+#timeline {
+  font-weight: 400;
+  line-height:1.5;
+}
+
+/*  --------------------------------------------------
+Panels
+-------------------------------------------------- */
+div.panelWhite {
+  padding: 20px 0px 20px 0px;
+  background: rgba(255,255,255,0.8);
+  /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF); */
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+/*  --------------------------------------------------
+  Icons
+  -------------------------------------------------- */
+.slider .nav-next .icon {
+  margin-right: 0;
+  padding-right: 20px;
+  background: url("/images/icons/arrow-right.png") no-repeat;
+  height:42px;
+  width:21px;
+  float: right;
+}
+.slider .nav-previous .icon {
+  margin-left: 0;
+  padding-left: 10px;
+  background: url("/images/icons/arrow-left.png") no-repeat;
+  height:42px;
+  width:21px;
+  float: left;
+}
+.slider .nav-previous, .slider .nav-next {
+  width:140px;
+
+}
+.slider .nav-previous .date, .slider .nav-previous .title {
+  width: 79px;
+  padding-left: 0;
+}
+.slider .nav-next .date, .slider .nav-next .title {
+  width: 79px;
+  padding-left: 0;
+}
+.tooltip{
+  opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=1);
+}
+#footer {
+  font-size:11px;
+  color:#999;
+}
+#footer .dropdown {
+  float: right;
+  text-align: left;
+  font-size:10px;
+  width:82px !important;
+}
+#footer .dropdown .current {
+  line-height:20px;
+  min-height:20px;
+}
+#footer .dropdown .selector {
+  height:20px;
+  width:24px;
+  background: url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll -17px -2px transparent;
+  border-width: 0px;
+}
+#footer .dropdown ul {
+  width:80px !important;
+  top:-67px;
+  z-index:400;
+}
+#footer .dropdown ul li {
+  padding: 0 0 0 6px;
+  height:22px;
+  line-height:21px
+}
+#footer .dropdown ul li:hover {
+  background-color: #999;
+}
+#footer .dropdown ul li.selected {
+  background: url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll right -56px transparent;
+}
+#footer .dropdown ul li.selected:hover {
+  background: #999 url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll right -82px;
+}
+#footer a {
+  color: #999;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer ul li.footer-info{
+  height:26px;
+  line-height:26px;
+  float: right;
+  margin-left:20px;
+}
+#footer .header-row {
+  padding: 2% 0px 0px 0px;
+}

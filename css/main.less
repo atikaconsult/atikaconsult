@@ -1,0 +1,210 @@
+html,body {height:100%}
+body {
+  position: static;
+  max-width: 1700px;
+  font-family: "Open Sans";
+
+}
+
+.nav-bar li a.main{
+  font-size: 14px !important;
+}
+.nav-bar > li li a {
+  font-size: 14px !important;
+}
+  .projects-template .a-wrapper.container {
+  padding: 0;
+}
+.row {
+  max-width: 98% !important;
+}
+
+#timeline {
+
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+
+  .container {
+    padding: 0;
+  }
+
+  @import '../apostrophePlugin/css/a-reset';
+  @import '../apostrophePlugin/css/a-forms';
+  @import '../apostrophePlugin/css/a-buttons';
+  @import '../apostrophePlugin/css/a-components';
+  @import '../apostrophePlugin/css/a-area-slots';
+  @import '../apostrophePlugin/css/a-engines';
+  @import '../apostrophePlugin/css/a-admin';
+  @import '../apostrophePlugin/css/a-colors';
+  @import '../apostrophePlugin/css/a-utility';
+
+  .slider-item .a-slideshow-image img {
+    border: none;
+  }
+
+  .slider {
+    .nav-previous, .nav-next {
+      .icon, .date, .title {
+        clear: both;
+      }
+    }
+  }
+}
+
+
+
+/*  --------------------------------------------------
+    Template specific fixes - Home Template
+  -------------------------------------------------- */
+
+  .home-template .header-row { padding-top:21%}
+  .home-template .a-button-image { padding-left: 50%;}
+  img.bg {bottom: 0; left: 0; position: absolute; width: 60%; z-index:-1}
+  .home-template .container {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -50px;}
+  .home-template #footer {height: 50px;}
+
+  /*  --------------------------------------------------
+    Template specific fixes - Paddings
+  -------------------------------------------------- */
+  .header-row {
+    padding: 2% 0px 0px 0px;
+  }
+
+  /*  --------------------------------------------------
+    Template specific fixes - Typography
+  -------------------------------------------------- */
+  .tooltip {
+    font-family: "Open Sans";
+    font-weight: normal;
+  }
+  .a-wrapper {
+    font-family: "Open Sans";
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Josefin Sans";
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height:1.5;
+    }
+    h1{
+      font-size: 2.6em;
+      color: #666;
+    }
+    h3{
+      font-size: 1.5em;
+      color: #333;
+    }
+    p, #timeline {
+      font-weight: 400;
+      line-height:1.5;
+    }
+  }
+
+/*  --------------------------------------------------
+  Panels
+  -------------------------------------------------- */
+  div.panelWhite {
+    padding: 20px 0px 20px 0px;
+    background: rgba(255,255,255,0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF);
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+  }
+
+
+
+/*  --------------------------------------------------
+  Icons
+  -------------------------------------------------- */
+
+  .slider .nav-next .icon {
+    margin-right: 0;
+    padding-right: 20px;
+    background: url (/images/icons/arrow-right.png) no-repeat;
+    height:42px;
+    width:21px;
+    float: right;
+  }
+  .slider .nav-previous .icon {
+    margin-left: 0;
+    padding-left: 10px;
+    background: url (/images/icons/arrow-left.png) no-repeat;
+    height:42px;
+    width:21px;
+    float: left;
+  }
+  .slider .nav-previous, .slider .nav-next {
+    width:140px;
+
+  }
+.slider .nav-previous .date, .slider .nav-previous .title {
+  width: 79px;
+  padding-left: 0;
+}
+.slider .nav-next .date, .slider .nav-next .title {
+  width: 79px;
+  padding-left: 0;
+}
+.tooltip{
+  opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=1);
+}
+#footer {
+  font-size:11px;
+  color:#999;
+  .dropdown {
+    float: right;
+    text-align: left;
+    font-size:10px;
+    width:82px !important;
+
+    .current {
+      line-height:20px;
+      min-height:20px;
+    }
+    .selector {
+      height:20px;
+      width:24px;
+      background: url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll -17px -2px transparent;
+      border-width: 0px;
+    }
+    ul{
+      width:80px !important;
+      top:-67px;
+      z-index:400;
+      li {
+        padding: 0 0 0 6px;
+        height:22px;
+        line-height:21px
+      }
+      li:hover {
+        background-color: #999;
+      }
+      li.selected {
+        background: url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll right -56px transparent;
+      }
+      li.selected:hover {
+        background: #999 url("/foundation/images/misc/custom-form-sprites.png") no-repeat scroll right -82px;
+      }
+    }
+  }
+  a {
+    color: #999;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul li.footer-info{
+    height:26px;
+    line-height:26px;
+    float: right;
+    margin-left:20px;
+  }
+
+  .header-row {
+    padding: 2% 0px 0px 0px;
+}
+}
