@@ -4,21 +4,18 @@
 <!--[if IE 8 ]>           <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="no-js ie8 lt-ie9">               <![endif]-->
 <!--[if IE 9 ]>           <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="no-js ie9">                      <![endif]-->
 <!--[if (gt IE 9)|!(IE)]> <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="no-js">                          <![endif]-->
-{%- include head.html -%}
-<body class="home-template a-page-id-1 a-page-depth-0 logged-out">
+{% include head.html %}
+<body>
   <div class="clearfix">
-    {%- include header.html -%}
 
-    <div class="a-content clearfix row">
-      {{ content }}
-    </div>
-    <!-- .a-content -->
+    {% include header.html %}
+
+    <!-- Content -->
+    <div class="a-content clearfix row">{{ content }}</div>
+    <!-- /Content -->
 
   </div>
-  <!-- .a-wrapper -->
 
-  {%- include footer.html -%}
-
-  <img class="bg" alt="" src="/images/backgrounds/home.png" />
+  {% include footer.html %}
 </body>
 </html>
