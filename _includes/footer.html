@@ -5,17 +5,17 @@
       <li class="footer-info">
         <form class="custom" id="select_language_form">
           <select style="display: none" id="select_language" name="language">
-            <option value="{{ / | relative_url }}">English</option>
-            <option value="{{ /de | relative_url }}">Deutsch</option>
-            <option selected="selected" value="{{ /bg | relative_url }}">Български</option>
+            <option {% if page.lang == "en" %}selected="selected"{% endif %} value="{{ "/" | relative_url }}">English</option>
+            <option {% if page.lang == "de" %}selected="selected"{% endif %} value="{{ "/de" | relative_url }}">Deutsch</option>
+            <option {% if page.lang == "bg" %}selected="selected"{% endif %} value="{{ "/bg" | relative_url }}">Български</option>
           </select>
           <div class="custom dropdown">
             <a href="#" class="current">Select Language:</a>
             <a href="#" class="selector"></a>
             <ul>
-              <li><a href="{{ / | relative_url }}">English</a></li>
-              <li><a href="{{ /de | relative_url }}">Deutsch</a></li>
-              <li><a href="{{ /bg | relative_url }}">Български</a></li>
+              <li><a href="{{ "/" | relative_url }}">English</a></li>
+              <li><a href="{{ "/de" | relative_url }}">Deutsch</a></li>
+              <li><a href="{{ "/bg" | relative_url }}">Български</a></li>
             </ul>
           </div>
         </form>
