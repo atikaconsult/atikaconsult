@@ -643,7 +643,7 @@ permalink: /en/projects/competitions
     </div>
 </div>
 
-<script type="text/javascript" id="a-js-calls">
+<script type="text/javascript">
     $(function() {
         apostrophe.slideshowSlot({
             "debug": false,
@@ -723,4 +723,3 @@ permalink: /en/projects/competitions
         $("body").trigger("aAfterJsCalls");
     });
 </script>
-</body>

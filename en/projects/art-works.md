@@ -426,7 +426,7 @@ permalink: /en/projects/art-works
     <!-- .a-content -->
 </div>
 
-<script type="text/javascript" id="a-js-calls">
+<script type="text/javascript">
     $(function() {
         apostrophe.slideshowSlot({
             "debug": false,
