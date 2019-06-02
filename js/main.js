@@ -115,4 +115,12 @@ if ($('#select_language_form').length && $('#select_language').length) {
     });
   }
 
+  /* Decode email links encoded using ROT13 */
+  $('a.rot13').each(function(){
+    var a = $(this);
+    var v = a.data("rot13").rot13();
+    a.attr("href", "mailto:"+v);
+    a.text(v);
+  })
+
 });

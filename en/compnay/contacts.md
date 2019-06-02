@@ -2,7 +2,7 @@
 title: Contacts
 layout: default
 lang: en
-permalink: /en/contacts
+permalink: /en/company/contacts
 ---
 <div class="row">
 	<div class="large-12 small-12 columns">
@@ -47,29 +47,33 @@ permalink: /en/contacts
 					id="a-slot-6-second-column-1">
 					<div class="a-slot-content clearfix" id="a-slot-content-6-second-column-1">
 						<p>
-							Atika Consult Ltd</p>
+							Atika Consult Ltd
+						</p>
 						<p>
 							<br>
 							main office<br>
 							Bitolya str. 30, Office 1<br>
 							9000 Varna, Bulgaria<br>
 							phone +359/52/600198<br>
-							fax +359/52/600198<br><a href="mailto:office@atikaconsult.com"
-								class="a-email-3323559239">office@atikaconsult.com</a></p>
+							fax +359/52/600198<br>
+							<a class="rot13" href="" data-rot13="bssvpr@ngvxnpbafhyg.pbz"></a>
+						</p>
 						<p>
 							<br>
 							architecture partner office<br>
 							arch. Evgeni Bratanov<br>
 							Gutbrodstr.23<br>
 							70193 Stuttgart, Germany<br>
-							phone +49/711/9957597<br><a href="mailto:bratanov@atikaconsult.com"
-								class="a-email-2731367352">bratanov@atikaconsult.com</a></p>
+							phone +49/711/9957597<br>
+							<a class="rot13" href="" data-rot13="oengnabi@ngvxnpbafhyg.pbz"></a>
+						</p>
 						<p>
 							<br>
 							PR &amp; web development:<br>
 							15 Tynemouth Street<br>
-							London SW62QT, United Kingdom<br><a href="mailto:pr@atikaconsult.com"
-								class="a-email-3052609633">pr@atikaconsult.com</a></p>
+							London SW62QT, United Kingdom<br>
+							<a class="rot13" href="" data-rot13="ce@ngvxnpbafhyg.pbz"></a>
+						</p>
 					</div>
 				</div>
 			</div>
